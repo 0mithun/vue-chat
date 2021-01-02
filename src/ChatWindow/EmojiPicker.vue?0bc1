@@ -1,0 +1,7 @@
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = require("../../node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.id, ".vac-wrapper[data-v-1e137646]{position:relative;display:flex}.vac-emoji-picker[data-v-1e137646]{position:absolute;z-index:9999;bottom:32px;right:10px;width:240px;overflow:scroll;padding:16px;box-sizing:border-box;border-radius:.5rem;background:var(--chat-emoji-bg-color);box-shadow:0 1px 2px -2px rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1),0 1px 2px 1px rgba(0,0,0,.1)}.vac-picker-reaction[data-v-1e137646]{position:fixed;top:auto;right:auto}.vac-emoji-picker__search[data-v-1e137646]{display:flex}.vac-emoji-picker__search>input[data-v-1e137646]{flex:1;border-radius:10rem;border:var(--chat-border-style);padding:5px 10px;outline:none;background:var(--chat-bg-color-input);color:var(--chat-color)}.vac-emoji-picker h5[data-v-1e137646]{margin:15px 0 8px;color:#b1b1b1;text-transform:uppercase;font-size:.8rem;cursor:default}.vac-emoji-picker .vac-emojis[data-v-1e137646]{display:flex;flex-wrap:wrap;justify-content:space-between}.vac-emoji-picker .vac-emojis[data-v-1e137646]:after{content:\"\";flex:auto}.vac-emoji-picker .vac-emojis span[data-v-1e137646]{padding:.2rem;cursor:pointer;border-radius:5px}.vac-emoji-picker .vac-emojis span[data-v-1e137646]:hover{background:var(--chat-sidemenu-bg-color-hover);cursor:pointer}.vac-button-reaction svg[data-v-1e137646]{height:19px;width:19px}", ""]);
+// Exports
+module.exports = exports;

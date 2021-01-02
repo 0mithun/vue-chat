@@ -1,0 +1,15 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:{ 'vac-text-ellipsis': _vm.singleLine }},[(_vm.textFormatting)?_c('div',{class:{ 'vac-text-ellipsis': _vm.singleLine }},[_vm._l((_vm.linkifiedMessage),function(message,i){return [_c(_vm.checkType(message, 'url') ? 'a' : 'span',{key:i,tag:"component",class:{
+					'vac-text-ellipsis': _vm.singleLine,
+					'vac-text-deleted': _vm.deleted,
+					'vac-text-bold': _vm.checkType(message, 'bold'),
+					'vac-text-italic': _vm.checkType(message, 'italic'),
+					'vac-text-strike': _vm.checkType(message, 'strike'),
+					'vac-text-underline': _vm.checkType(message, 'underline'),
+					'vac-text-inline-code':
+						!_vm.singleLine && _vm.checkType(message, 'inline-code'),
+					'vac-text-multiline-code':
+						!_vm.singleLine && _vm.checkType(message, 'multiline-code')
+				},attrs:{"href":message.href,"target":"_blank"}},[_vm._t("deleted-icon",[(_vm.deleted)?_c('svg-icon',{staticClass:"vac-icon-deleted",attrs:{"name":"deleted"}}):_vm._e()],null,{ deleted: _vm.deleted }),_vm._v(" "+_vm._s(message.value)+" ")],2)]})],2):_c('div',[_vm._v(_vm._s(_vm.content))])])}
+var staticRenderFns = []
+
+export { render, staticRenderFns }
